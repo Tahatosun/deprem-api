@@ -30,7 +30,7 @@ npm start
 | `/api/filterByLocation`  | `radius` ,`lon` ,`lat` ,`size`    | Verilen konumu orta nokta olarak belirler. Daha sonra belirtilen `radius `değeri kadar yarıçapı olan bir çember çizer ve bu alan içerisinde kalan depremleri listeler.       |
 | `/api/filterByDate`     | `start`,`end`,`size` | Belirtilen başlangıç ve bitiş tarihi arasında kalan depremleri listeler.   |
 
-## Paramaters
+## Parameters
 Parameters |Description                    |
 ---------| ------------------------------ |
 | `size`  |  Listelenecek veri sayısını belirtir. Varsayılan değeri 10'dur. | 
